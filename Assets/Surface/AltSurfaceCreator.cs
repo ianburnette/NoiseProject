@@ -1,8 +1,7 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 [RequireComponent(typeof(MeshFilter), typeof(MeshRenderer))]
-public class SurfaceCreator : MonoBehaviour {
+public class AltSurfaceCreator : MonoBehaviour {
 
 	[Range(1, 200)]
 	public int resolution = 10;
